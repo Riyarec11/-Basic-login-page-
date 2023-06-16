@@ -1,0 +1,68 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+body{
+    background: url(london\ 2.jpg ) ;
+     /* no-repeat center center cover ; */
+    background-size:  cover;
+} 
+
+.container{
+    /* border: 2px solid black; */
+color: azure;
+position: absolute;
+top: 10%;
+left: 40%;
+
+}
+.container h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    width: 25% ;
+    display: inline-block;
+    font-size: 20px;
+    border-bottom: 5px solid black;
+    padding: 12px;
+    margin-bottom: 10px;
+
+}
+    .box{
+        margin: 26px 0px ;
+        width=100%;
+        /* border: 2px solid purple; */
+        border-bottom: 2px solid  black ;
+    }
+    .box input {
+     background:  none ;
+        width : 75%;
+        /* margin : 12px 0 ; */
+        font-size: 20px;
+        padding: 6px 10px ;
+        border: none ;
+        outline: none ;
+        color: white ;
+    }
+
+    .box i {
+        width : 24px;
+        /* margin:  22px 0px ; */
+        /* float : left ; */
+        text-align: center;
+
+    }
+    .btn {
+        cursor : pointer;
+        outline : none;
+        width: 30%;
+        margin : 12px 0;
+        padding: 6px;
+        border-radius: 20px ;
+        font-size: 15px;
+        background:  none ;
+    } 
+    .btn:hover{
+        color: purple;
+        background: white;
+        opacity: 0.3;
+    }
